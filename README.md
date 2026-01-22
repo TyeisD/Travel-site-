@@ -114,7 +114,7 @@ Persistent user preferences (e.g., saved theme)
 
 
 
-How to Open This Project in Visual Studio Code
+--------How to Open This Project in Visual Studio Code-------------------------------------------------------------------------------------------------
 
 Step 1 Download the project folder from GitHub by clicking the green Code button and selecting Download ZIP. After the download finishes, unzip the folder on your computer.
 
