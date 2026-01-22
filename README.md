@@ -111,9 +111,19 @@ Improved mobile responsiveness
 
 Persistent user preferences (e.g., saved theme)
 
-🔹 License
 
-This project is licensed under the MIT License.
-Feel free to view, learn from, and reuse the code for educational purposes.
 
-© Made by Tyeis Duncan
+
+How to Open This Project in Visual Studio Code
+
+Step 1 Download the project folder from GitHub by clicking the green Code button and selecting Download ZIP. After the download finishes, unzip the folder on your computer.
+
+Step 2 Open Visual Studio Code. From the top menu, click File and then click Open Folder. Navigate to the unzipped project folder and click Open.
+
+Step 3 Once the folder is open in Visual Studio Code, you will see all project files in the Explorer panel on the left side.
+
+Step 4 Locate the file named index.html. If you have the Live Server extension installed, right click on index.html and select Open with Live Server. This will open the website in your browser.
+
+Step 5 If you do not have Live Server installed, you can double click the index.html file to open it directly in your web browser.
+
+Step 6 Make changes to the HTML, CSS, or JavaScript files and save them. Refresh the browser to see the updates.
