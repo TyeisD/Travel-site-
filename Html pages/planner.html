@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Budget Planner – Tyeis Travel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Tyeis Travel</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="index.html#destinations">Destinations</a>
+    <a href="index.html#hotels">Hotels</a>
+    <a href="planner.html" class="active">Budget Planner</a>
+  </nav>
+
+  <button id="themeBtn" class="theme-toggle">Light / Dark</button>
+</header>
+
+<section class="section planner">
+  <h2>Vacation Budget Planner</h2>
+  <p class="section-intro">Estimate and organize your upcoming vacation expenses.</p>
+
+  <form class="planner-card">
+
+    <label>Approximately how many months until your vacation?</label>
+    <input type="number" placeholder="e.g. 9">
+
+    <label>Check the expenses you will likely need to prepare for:</label>
+
+    <div class="planner-options">
+      <label><input type="checkbox"> Airline tickets and airport fees</label>
+      <label><input type="checkbox"> Attractions, entertainment & excursions</label>
+      <label><input type="checkbox"> Clothing & souvenir shopping</label>
+      <label><input type="checkbox"> Cruise tickets and tips</label>
+      <label><input type="checkbox"> Dining out (restaurants, cafés)</label>
+      <label><input type="checkbox"> Fuel or transportation costs</label>
+      <label><input type="checkbox"> Groceries and snacks</label>
+      <label><input type="checkbox"> Lodging (hotel, resort, rental)</label>
+      <label><input type="checkbox"> Rental car & ride sharing</label>
+      <label><input type="checkbox"> Travel documents (passport, visas)</label>
+      <label><input type="checkbox"> Misc (internet, insurance, ATM fees)</label>
+    </div>
+
+    <label>How many days do you expect to dine out?</label>
+    <input type="number" placeholder="e.g. 5">
+
+    <label>Expected dining expenses ($)</label>
+    <input type="number" placeholder="e.g. 600">
+
+    <label>How many nights will you need lodging?</label>
+    <input type="number" placeholder="e.g. 6">
+
+    <label>Expected lodging expenses ($)</label>
+    <input type="number" placeholder="e.g. 3200">
+
+    <label>Total estimated vacation budget ($)</label>
+    <input type="number" placeholder="e.g. 5500">
+
+    <label>Email your budget summary</label>
+    <input type="email" placeholder="you@example.com">
+
+    <button class="primary-btn">Save Budget</button>
+
+  </form>
+</section>
+
+<footer>
+  © Made by Tyeis Duncan
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
